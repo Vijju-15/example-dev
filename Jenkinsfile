@@ -23,3 +23,4 @@ pipeline {
             archiveArtifacts artifacts : 'artifacts.txt, out/**', allowEmptyArchive: false
         }
     }
+}
